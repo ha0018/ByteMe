@@ -1,0 +1,25 @@
+********* Start testing of Integration *********
+Config: Using QtTest library 6.7.3, Qt 6.7.3 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2019), windows 11
+PASS   : Integration::initTestCase()
+PASS   : Integration::framing()
+PASS   : Integration::fileNames()
+PASS   : Integration::discovery()
+PASS   : Integration::transfer(empty)
+PASS   : Integration::transfer(unicode)
+PASS   : Integration::transfer(small)
+PASS   : Integration::concurrentAndCollision()
+PASS   : Integration::persistentResume()
+PASS   : Integration::corruptPartialRestarts()
+PASS   : Integration::rejectOffer()
+PASS   : Integration::invalidOffer(traversal)
+PASS   : Integration::invalidOffer(reserved)
+PASS   : Integration::invalidOffer(digest)
+PASS   : Integration::invalidOffer(too-large)
+PASS   : Integration::invalidOffer(version)
+PASS   : Integration::oversizeFrame()
+PASS   : Integration::incompleteTransferIsNeverCommitted()
+PASS   : Integration::checksumMismatchIsNeverCommitted()
+PASS   : Integration::shutdownDuringTransfer()
+PASS   : Integration::cleanupTestCase()
+Totals: 21 passed, 0 failed, 0 skipped, 0 blacklisted, 3740ms
+********* Finished testing of Integration *********

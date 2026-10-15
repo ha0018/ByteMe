@@ -1,0 +1,7 @@
+build*/
+dist/
+release/
+*.user
+.vs/
+CMakeUserPresets.json
+.codegraph/
